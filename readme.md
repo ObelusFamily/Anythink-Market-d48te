@@ -10,4 +10,5 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+1. Use docker-compose up to in the cloned directory to run the backend/frontend and mongodb.
+2. If you run these containers on a remote host like me, remember to modify the docker-compose.yml line 28. Replace the `localhost` with your remote machine's IP or hostname.
